@@ -1,6 +1,10 @@
 package cuentas;
 public class Main {
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -24,6 +28,10 @@ public class Main {
         }
     }
 
+    
+    /** 
+     * @param cantidad
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
